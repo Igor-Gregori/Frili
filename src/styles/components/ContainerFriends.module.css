@@ -1,0 +1,322 @@
+.container {
+  background-color: #d0e7f8;
+  width: 40vh;
+  height: 70vh;
+
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+}
+
+.containerHeader {
+  background: rgb(14, 74, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 74, 166, 1) 0%,
+    rgba(20, 87, 192, 1) 35%,
+    rgba(27, 103, 221, 1) 100%
+  );
+
+  width: 100%;
+  height: 22%;
+
+  transition: all 0.3s;
+}
+
+.firstContainer {
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.firstContainer h3 {
+  color: #d0e7f8;
+  font-family: "Myriad Pro Light", sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.firstContainer div {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttonHeader {
+  position: absolute;
+
+  height: 50px;
+  width: 50px;
+
+  margin-left: 20px;
+
+  border-radius: 5px;
+
+  transition: background 0.3s;
+}
+
+.buttonHeader:hover {
+  background: #1b67ddbf;
+}
+
+.buttonHeader img {
+  height: 28px;
+
+  transition: transform 0.2s;
+}
+
+.buttonHeader:hover img {
+  transition: transform 0.2s;
+  transform: rotate(90deg) scale(0.6);
+}
+
+.searchContainer {
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+
+  padding: 20px;
+
+  width: 100%;
+  height: 70%;
+  margin: 10px 20px 10px 20px;
+  border-radius: 50px;
+
+  background: rgb(50, 100, 177);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 100, 177, 1) 0%,
+    rgba(50, 100, 177, 1) 35%,
+    rgba(59, 122, 222, 1) 100%
+  );
+}
+
+.searchBar img {
+  height: 28px;
+  opacity: 0.6;
+}
+
+.inputSearch {
+  margin-left: 15px;
+  width: 100%;
+  color: white;
+
+  transition: font-size 0.3s;
+}
+
+.inputSearch::placeholder {
+  color: #d0e7f8;
+  opacity: 0.6;
+}
+
+.inputSearch:focus {
+  transition: font-size 0.3s;
+  font-size: large;
+}
+
+.containerBottom {
+  height: 78%;
+  overflow: auto;
+}
+
+.headerAddFriend {
+  background: rgb(14, 74, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(14, 74, 166, 1) 0%,
+    rgba(20, 87, 192, 1) 35%,
+    rgba(27, 103, 221, 1) 100%
+  );
+
+  width: 100%;
+  height: 10%;
+
+  transition: all 0.3s;
+}
+
+.containerHeaderFriend {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.containerHeaderFriend h3 {
+  color: #d0e7f8;
+  font-family: "Myriad Pro Light", sans-serif;
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.containerHeaderFriend div {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttonHeaderFriend {
+  position: absolute;
+
+  height: 50px;
+  width: 50px;
+
+  margin-left: 20px;
+
+  border-radius: 5px;
+
+  transition: background 0.3s;
+}
+
+.buttonHeaderFriend:hover {
+  background: #1b67ddbf;
+}
+
+.buttonHeaderFriend img {
+  height: 36px;
+
+  transition: transform 0.2s;
+}
+
+.buttonHeaderFriend:hover img {
+  transition: transform 0.2s;
+  transform: scale(0.6);
+}
+
+.containerBottomAddFriend {
+  height: 90%;
+}
+
+.divImgFriend {
+  margin-top: 10px;
+  width: 100%;
+  height: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputFile {
+  display: none;
+}
+
+.previewImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+
+  cursor: pointer;
+}
+
+.previewImg:hover {
+  opacity: 50%;
+}
+
+.imgPreview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  mask-repeat: no-repeat;
+  size: cover;
+  position: 50% 50%;
+}
+
+.divInfoFriend {
+  height: 55%;
+  margin: 0px 25px 0px 25px;
+}
+
+.divButtonFriend {
+  height: 12%;
+  margin: 0px 25px 0px 25px;
+}
+
+.divInfoFriend input {
+  width: 100%;
+  border-bottom: 2px solid #1b67ddbf;
+  margin-top: 30px;
+
+  font-family: "Myriad Pro Light", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.divInfoFriend input::placeholder {
+  color: #a8bbca;
+}
+
+.divButtonFriend button {
+  width: 100%;
+  height: 55px;
+  background-color: #d0e7f8;
+  border: 2px solid #1b67ddbf;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.divButtonFriend button h3 {
+  font-family: "Myriad Pro Light", sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+
+  color: #1b67ddbf;
+}
+
+.divButtonFriend button:hover {
+  background-color: #b8cedf;
+}
+
+.alone{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.alone p{
+  font-family: "Myriad Pro Light", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+
+  color: #1b67ddbf;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 52vh;
+    height: 80vh;
+
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+  }
+
+  .buttonHeader img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .buttonHeader:hover img {
+    transform: rotate(90deg) scale(0.8);
+  }
+}

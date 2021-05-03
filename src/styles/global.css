@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(20, 83, 183);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 83, 183, 1) 0%,
+    rgba(30, 102, 219, 1) 35%,
+    rgb(41, 121, 255) 100%
+  );
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+form{
+  height: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  font-size: 0;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b6b6b;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}

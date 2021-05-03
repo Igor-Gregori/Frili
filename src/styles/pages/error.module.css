@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 20px;
+
+  width: 30%;
+  height: 30%;
+  background: white;
+
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+
+  text-align: justify;
+}
+
+.mainContainer p {
+  color: red;
+}
+
+.mainContainer a {
+  font-style: italic;
+  color: blue;
+}
+
+.mainContainer a:hover {
+  text-decoration: underline;
+  color: lightskyblue;
+}
