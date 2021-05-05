@@ -48,6 +48,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [React.js](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Axios](https://www.npmjs.com/package/axios)
+- [React Toast Notifications](https://jossmac.github.io/react-toast-notifications/)
 - [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) 
 - Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
@@ -78,8 +79,6 @@ $ yarn dev
 
 # O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
 http://localhost:3000
-
-
 ```
 
 ## :man: Desenvolvedor
